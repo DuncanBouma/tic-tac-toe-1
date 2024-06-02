@@ -1,5 +1,5 @@
 const gameBoard = (() => {
-  console.log("Greetings Earthling 👋");
+  console.log("WHASSUUUP 👋");
   const h1 = document.querySelector("h1");
   const startButton = document.querySelector(".start");
   const menu = document.querySelector(".menu");
@@ -241,7 +241,7 @@ const gameBoard = (() => {
               score1.innerHTML++;
             }
             const playerTurn = document.querySelector("#player-turn");
-            playerTurn.innerHTML = `${player1} wins this round! 😉🎉`;
+            playerTurn.innerHTML = `${player1} wins get clapped! 😉🎉`;
             restart.innerHTML = `Play Again<i class="fas fa-redo" id="icon">`;
             gameOver = true;
           }
@@ -250,13 +250,13 @@ const gameBoard = (() => {
               score2.innerHTML++;
             }
             const playerTurn = document.querySelector("#player-turn");
-            playerTurn.innerHTML = `${player2} wins this round! 🤠🎉`;
+            playerTurn.innerHTML = `${player2} wins get clapped! 🤠🎉`;
             restart.innerHTML = `Play Again<i class="fas fa-redo" id="icon">`;
             gameOver = true;
           }
           if (isTieSquare()) {
             const playerTurn = document.querySelector("#player-turn");
-            playerTurn.innerHTML = `It's a tie!🤝`;
+            playerTurn.innerHTML = `sukkell!🤝`;
             restart.innerHTML = `Play Again<i class="fas fa-redo" id="icon">`;
             gameOver = true;
           }

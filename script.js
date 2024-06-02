@@ -117,13 +117,13 @@ const gameBoard = (() => {
         //Check for wins and tie
         const playerTurn = document.querySelector("#player-turn");
         if (checkWinOCell()) {
-          playerTurn.innerHTML = `AI wins this round! 🤠🎉`;
+          playerTurn.innerHTML = `AI wins shitter! 🤠🎉`;
           playerTurn.style.opacity = "1";
           restart.innerHTML = `Play Again<i class="fas fa-redo" id="icon">`;
           gameOver = true;
         }
         if (checkWinXCell()) {
-          playerTurn.innerHTML = `Human wins this round! 😉🎉`;
+          playerTurn.innerHTML = `Human wins get rekt nerd! 😉🎉`;
           playerTurn.style.opacity = "1";
           restart.innerHTML = `Play Again<i class="fas fa-redo" id="icon">`;
           gameOver = true;
